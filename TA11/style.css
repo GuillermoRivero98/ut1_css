@@ -1,0 +1,21 @@
+
+.impar {
+    background-color: hwb(351 72% 2%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#par1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.especial {
+    font-size: 24px;
+}
+
+
+#par2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

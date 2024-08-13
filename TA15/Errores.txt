@@ -1,0 +1,13 @@
+Botones (.button y .confirm):
+
+La regla de la clase .button está siendo aplicada a ambos botones, pero la regla 
+específica para .confirm está siendo anulada parcialmente porque la especificidad de .button 
+es mayor en lo que respecta al color del texto.Esto causa que el botón "Confirm" no aparezca 
+completamente con el estilo que se espera (fondo verde y texto blanco).
+
+
+Divisiones (.text):
+
+La regla para .child dentro de un div.text está siendo parcialmente anulada por la regla del 
+selector div.text, lo que impide que el texto dentro de .child se muestre correctamente con el color y 
+peso de fuente deseados.

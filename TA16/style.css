@@ -1,0 +1,47 @@
+body {
+    background-color: red;
+    fort-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    img{
+        width: 70%;
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    img{
+        width: 100%;
+    }
+}
